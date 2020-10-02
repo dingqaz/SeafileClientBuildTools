@@ -61,9 +61,9 @@ endif
 default: clean init seafile-client
 
 fetch:
-	wget -q -O $(JANSSONDIR).zip https://github.com/akheron/jansson/archive/master.zip;\
-	wget -q -O $(LIBEVENTDIR).zip https://github.com/libevent/libevent/archive/master.zip;\
-	wget -q -O $(LIBSEARPCDIR).zip https://github.com/haiwen/libsearpc/archive/master.zip;\
+	wget -q -O $(JANSSONDIR).zip https://github.com/vmcitrix/jansson/archive/master.zip;\
+	wget -q -O $(LIBEVENTDIR).zip https://github.com/vmcitrix/libevent/archive/master.zip;\
+	wget -q -O $(LIBSEARPCDIR).zip https://github.com/vmcitrix/libsearpc/archive/master.zip;\
 	wget -q -O $(SEAFILEDIR).zip https://github.com/vmcitrix/seafile/archive/master.zip;\
 	wget -q -O $(SEAFILECLIENTDIR).zip https://github.com/vmcitrix/seafile-client/archive/master.zip
 
